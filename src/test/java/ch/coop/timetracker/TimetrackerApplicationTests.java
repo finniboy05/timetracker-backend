@@ -1,4 +1,4 @@
-package com.timetracker;
+package ch.coop.timetracker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

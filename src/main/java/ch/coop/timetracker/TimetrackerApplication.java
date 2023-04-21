@@ -1,4 +1,4 @@
-package com.timetracker;
+package ch.coop.timetracker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
