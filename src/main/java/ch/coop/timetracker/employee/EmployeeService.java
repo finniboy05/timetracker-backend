@@ -33,7 +33,6 @@ public class EmployeeService {
                 .map(employeeOrig -> {
                     employeeOrig.setName(employee.getName());
                     employeeOrig.setFirstname(employee.getFirstname());
-                    employeeOrig.setBadge(employee.getBadge());
                     employeeOrig.setDepartment(employee.getDepartment());
                     return repository.save(employeeOrig);
                 })

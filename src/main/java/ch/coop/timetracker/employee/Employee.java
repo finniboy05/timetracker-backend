@@ -20,10 +20,6 @@ public class Employee {
     @Size(max = 100)
     @NotEmpty
     private String firstname;
-    @Column(length = 20, unique = true, nullable = false)
-    @Size(max = 20)
-    @NotEmpty
-    private String badge;
     @ManyToOne(optional = false)
     @JoinColumn(name = "department_id")
     private Department department;
